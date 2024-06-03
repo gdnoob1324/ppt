@@ -30,6 +30,7 @@ img {
     word-spacing: var(--w-spacing);
 
     text-align: center;
+    transition: all 200ms;
 }
 
 html {
@@ -78,17 +79,39 @@ h1 {
 }
 
 .ib {
-    margin: 8px;
+    margin: 24px;
     background-color: #404040;
-    flex-basis: 25%;
-    height: 60%;
+    flex-basis: 20%;
+    aspect-ratio: 1 / 1;
     border-radius: 100000px;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.ib:hover {
+    transform: scale(1.15);
 }
 
 .ib h1 {
+    width: 100%;
     margin: 0 auto;
     font-size: 64px;
-    padding: 16px 0;
+    height: 50%;
     background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ib h2 {
+    height: 40%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
