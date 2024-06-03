@@ -76,3 +76,19 @@ main {
 h1 {
     margin: 16px auto;
 }
+
+.ib {
+    margin: 8px;
+    background-color: #404040;
+    flex-basis: 25%;
+    height: 60%;
+    border-radius: 100000px;
+    overflow: hidden;
+}
+
+.ib h1 {
+    margin: 0 auto;
+    font-size: 64px;
+    padding: 16px 0;
+    background-color: #303030;
+}
