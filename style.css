@@ -28,6 +28,12 @@ img {
 * {
     letter-spacing: var(--l-spacing);
     word-spacing: var(--w-spacing);
+
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -55,4 +61,18 @@ main {
     background: linear-gradient(0deg, #252525 0%, #202020 90%);
     scroll-snap-align: start;
     scroll-snap-stop: always;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nl {
+    flex: 1 1 100%;
+}
+
+h1 {
+    margin: 16px auto;
 }
