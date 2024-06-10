@@ -81,7 +81,7 @@ h1 {
 
 .ib {
     margin: 24px;
-    background-color: #444;
+    background-color: #0080ff;
     flex-basis: 20%;
     aspect-ratio: 1 / 1;
     border-radius: 100000px;
@@ -103,7 +103,7 @@ h1 {
     margin: 0 auto;
     font-size: 64px;
     height: 50%;
-    background-color: #333;
+    background-color: #00a0ff;
     display: flex;
     justify-content: center;
     align-items: center;
